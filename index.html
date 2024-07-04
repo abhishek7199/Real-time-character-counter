@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Char Counter App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Real Time Character Counter</h1>
+      <p>
+        Check your English text for grammer, spelling and puncuation error with
+        awesome real time character counter
+      </p>
+      <textarea
+        id="textarea"
+        class="textarea"
+        placeholder="Write here your text"
+        maxlength="150"
+      ></textarea>
+      <button id="btn">Copy Text</button>
+      <div class="char-counter">
+        <p>Total Character: <span id="total-character">0</span></p>
+        <p>Remaining Character: <span id="remaining-character">150</span></p>
+      </div>
+    </div>
+  </body>
+</html>
